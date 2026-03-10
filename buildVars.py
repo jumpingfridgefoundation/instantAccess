@@ -19,7 +19,7 @@ addon_info = AddonInfo(
 	addon_license="GPL v2",
 	addon_licenseURL=None,
 )
-pythonSources = ["addon/globalPlugins/*.py"]
+pythonSources = ["addon/**/*.py"]
 i18nSources: list[str] = pythonSources + ["buildVars.py"]
 excludedFiles: list[str] = []
 baseLanguage: str = "en"

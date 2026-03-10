@@ -1,330 +1,512 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: instantAccess 2026.1\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-07 14:08+0000\n"
-"PO-Revision-Date: 2026-02-10 14:30+0200\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-03-09 23:27+0200\n"
+"PO-Revision-Date: 2026-03-09 23:46+0200\n"
 "Last-Translator: Kamal Yaser <kamalyaser31@gmail.com>\n"
 "Language-Team: Arabic <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 3.8\n"
 
-#. Translators: Item types for instant Access entries.
-#: addon/globalPlugins/instantAccess.py:37
+#. Translators: Title of the dialog used to select an NVDA command.
+#: addon\globalPlugins\core\command_picker_dialog.py:21
+msgid "Select NVDA command"
+msgstr "حدد اختصار nvda"
+
+#. Translators: Label for filter field in NVDA command selection dialog.
+#: addon\globalPlugins\core\command_picker_dialog.py:37
+msgid "Filter"
+msgstr "تصفية"
+
+#. Translators: Label for OK button in NVDA command selection dialog.
+#: addon\globalPlugins\core\command_picker_dialog.py:46
+#: addon\globalPlugins\core\item_dialog.py:111
+#: addon\globalPlugins\core\item_dialog.py:354
+msgid "&OK"
+msgstr "&موافق"
+
+#. Translators: Label for Cancel button in NVDA command selection dialog.
+#: addon\globalPlugins\core\command_picker_dialog.py:48
+#: addon\globalPlugins\core\item_dialog.py:112
+#: addon\globalPlugins\core\item_dialog.py:355
+msgid "&Cancel"
+msgstr "إل&غاء"
+
+#: addon\globalPlugins\core\command_picker_dialog.py:240
+msgid "Please select an NVDA command."
+msgstr "من فضلك حدد اختصار nvda."
+
+#: addon\globalPlugins\core\constants.py:22
 msgid "Website"
 msgstr "موقع ويب"
 
-#: addon/globalPlugins/instantAccess.py:37
+#: addon\globalPlugins\core\constants.py:23
 msgid "Program"
 msgstr "برنامج"
 
-#: addon/globalPlugins/instantAccess.py:37
+#: addon\globalPlugins\core\constants.py:24
 msgid "Folder"
 msgstr "مجلد"
 
-#: addon/globalPlugins/instantAccess.py:37
+#: addon\globalPlugins\core\constants.py:25
 msgid "File"
 msgstr "ملف"
 
+#: addon\globalPlugins\core\constants.py:26
+#: addon\globalPlugins\core\item_dialog.py:151
+msgid "NVDA command"
+msgstr "اختصار nvda"
+
+#: addon\globalPlugins\core\constants.py:27
+#: addon\globalPlugins\core\item_dialog.py:161
+msgid "Text snippet"
+msgstr "نص"
+
+#. Translators: Action labels for text snippet entries.
+#: addon\globalPlugins\core\constants.py:35
+msgid "Type the text"
+msgstr "اكتب النص"
+
+#: addon\globalPlugins\core\constants.py:35
+msgid "Copy"
+msgstr "نسخ"
+
+#: addon\globalPlugins\core\constants.py:35
+msgid "Paste"
+msgstr "لصق"
+
 #. Translators: Category name for the instant Access add-on.
 #. Translators: Title of the instant Access settings panel.
-#. العنوان الظاهر للمستخدم
-#: addon/globalPlugins/instantAccess.py:40
-#: addon/globalPlugins/instantAccess.py:624 buildVars.py:13
+#: addon\globalPlugins\core\constants.py:42
+#: addon\globalPlugins\core\settings_panel.py:65 buildVars.py:6
 msgid "instant Access"
 msgstr "الوصول الفوري"
 
 #. Translators: Description for the toggle instant mode command in Input Gestures.
-#: addon/globalPlugins/instantAccess.py:42
+#: addon\globalPlugins\core\constants.py:45
 msgid "Toggle instant Access mode."
 msgstr "تبديل وضع الوصول الفوري."
 
+#. Translators: Description for reporting the currently focused application name.
+#: addon\globalPlugins\core\constants.py:48
+msgid "Report current app name."
+msgstr "الإبلاغ عن اسم التطبيق الحالي."
+
 #. Translators: Caption for error message dialogs.
-#: addon/globalPlugins/instantAccess.py:44
+#: addon\globalPlugins\core\constants.py:51
 msgid "Error"
 msgstr "خطأ"
 
 #. Translators: Caption for confirmation dialogs.
-#: addon/globalPlugins/instantAccess.py:46
+#: addon\globalPlugins\core\constants.py:54
+#: addon\globalPlugins\core\item_dialog.py:485
 msgid "Confirm"
 msgstr "تأكيد"
 
-#. Translators: Wildcard for selecting any file in the file picker.
-#: addon/globalPlugins/instantAccess.py:48
-msgid "All files (*.*)|*.*"
-msgstr "كافة الملفات (*.*)|*.*"
-
 #. Translators: Label for beginner verbosity level.
-#: addon/globalPlugins/instantAccess.py:50
+#: addon\globalPlugins\core\constants.py:59
 msgid "Beginner"
 msgstr "مبتدئ"
 
 #. Translators: Label for advanced verbosity level.
-#: addon/globalPlugins/instantAccess.py:52
+#: addon\globalPlugins\core\constants.py:62
 msgid "Advanced"
 msgstr "متقدم"
 
-#. Translators: Error message when a URL is empty.
-#: addon/globalPlugins/instantAccess.py:218
+#: addon\globalPlugins\core\executor.py:49
+msgid "Error: Text snippet is empty"
+msgstr "حقل النص فارغ"
+
+#: addon\globalPlugins\core\executor.py:54
+#: addon\globalPlugins\core\executor.py:59
+msgid "Error: Could not copy text snippet"
+msgstr "خطأ: تعذر نسخ النص"
+
+#: addon\globalPlugins\core\executor.py:62
+#: addon\globalPlugins\core\executor.py:71
+msgid "Error: Keyboard library is not available"
+msgstr "خطأ: مكتبة لوحة المفاتيح غير مثبتة"
+
+#: addon\globalPlugins\core\executor.py:67
+msgid "Error: Could not paste text snippet"
+msgstr "خطأ: تعذر لصق النص"
+
+#: addon\globalPlugins\core\executor.py:76
+msgid "Error: Could not type text snippet"
+msgstr "خطأ: تعذر كتابة النص"
+
+#: addon\globalPlugins\core\executor.py:83
 msgid "Error: URL is empty"
 msgstr "خطأ: الرابط فارغ"
 
-#. Translators: Error message when a website cannot be opened.
-#: addon/globalPlugins/instantAccess.py:226
+#: addon\globalPlugins\core\executor.py:90
 msgid "Error: Could not open the website"
 msgstr "خطأ: تعذر فتح الموقع"
 
-#. Translators: Error message when a file or folder is missing.
-#: addon/globalPlugins/instantAccess.py:231
+#: addon\globalPlugins\core\executor.py:103
 msgid "Error: File not found"
 msgstr "خطأ: الملف غير موجود"
 
-#. Translators: Error message when a file or folder cannot be opened.
-#: addon/globalPlugins/instantAccess.py:238
+#: addon\globalPlugins\core\executor.py:110
 msgid "Error: Could not open the item"
 msgstr "خطأ: تعذر فتح العنصر"
 
-#. Translators: Error message when a file cannot be opened with associated application.
-#: addon/globalPlugins/instantAccess.py:244
-#: addon/globalPlugins/instantAccess.py:247
+#: addon\globalPlugins\core\executor.py:116
+#: addon\globalPlugins\core\executor.py:118
 msgid "Error: Could not open the file"
 msgstr "خطأ: تعذر فتح الملف"
 
-#. Translators: Error message when a program cannot be started.
-#: addon/globalPlugins/instantAccess.py:260
+#: addon\globalPlugins\core\executor.py:131
 msgid "Error: Could not start the program"
 msgstr "خطأ: تعذر تشغيل البرنامج"
 
-#. Translators: Title of the dialog used to capture a shortcut key.
-#: addon/globalPlugins/instantAccess.py:409
+#: addon\globalPlugins\core\item_dialog.py:42
+#: addon\globalPlugins\core\settings_panel.py:32
+#, python-brace-format
+msgid "{action}: {preview}"
+msgstr "{action}: {preview}"
+
+#: addon\globalPlugins\core\item_dialog.py:57
 msgid "Set shortcut"
 msgstr "تعيين اختصار"
 
-#. Translators: Instructions in the shortcut capture dialog.
-#: addon/globalPlugins/instantAccess.py:413
+#: addon\globalPlugins\core\item_dialog.py:60
 msgid "Press the desired shortcut key. Escape cancels."
 msgstr "اضغط على مفتاح الاختصار المطلوب. اضغط Escape للإلغاء."
 
-#. Translators: Label for the name field in the add/edit dialog.
-#. Translators: Column label for item name in the list.
-#: addon/globalPlugins/instantAccess.py:442
-#: addon/globalPlugins/instantAccess.py:634
-msgid "Name"
-msgstr "الاسم"
-
-#. Translators: Label for the type field in the add/edit dialog.
 #. Translators: Column label for item type in the list.
-#: addon/globalPlugins/instantAccess.py:444
-#: addon/globalPlugins/instantAccess.py:636
+#: addon\globalPlugins\core\item_dialog.py:86
+#: addon\globalPlugins\core\item_dialog.py:331
+#: addon\globalPlugins\core\settings_panel.py:77
 msgid "Type"
 msgstr "النوع"
 
-#. Translators: Label for the path or URL field in the add/edit dialog.
-#: addon/globalPlugins/instantAccess.py:449
+#: addon\globalPlugins\core\item_dialog.py:107
+msgid "Delay before executing this action"
+msgstr "مدة الانتظار قبل تنفيذ هذا الإجراء"
+
+#: addon\globalPlugins\core\item_dialog.py:133
 msgid "Path or URL"
 msgstr "المسار أو الرابط"
 
-#. Translators: Label for the browse button in the add/edit dialog.
-#: addon/globalPlugins/instantAccess.py:452
+#: addon\globalPlugins\core\item_dialog.py:135
 msgid "Browse"
 msgstr "تصفح"
 
-#. Translators: Label for optional command line arguments in the add/edit dialog.
-#: addon/globalPlugins/instantAccess.py:459
+#: addon\globalPlugins\core\item_dialog.py:143
 msgid "Arguments (optional)"
 msgstr "الوسائط (اختياري)"
 
-#. Translators: Label for the shortcut section in the add/edit dialog.
-#. Translators: Column label for shortcut in the list.
-#: addon/globalPlugins/instantAccess.py:463
-#: addon/globalPlugins/instantAccess.py:638
-msgid "Shortcut"
-msgstr "الاختصار"
+#: addon\globalPlugins\core\item_dialog.py:153
+msgid "Select command"
+msgstr "اختر أمرًا"
 
-#. Translators: Label for the OK button in the add/edit dialog.
-#: addon/globalPlugins/instantAccess.py:471
-msgid "&OK"
-msgstr "&موافق"
+#: addon\globalPlugins\core\item_dialog.py:169
+msgid "Snippet action"
+msgstr "إجراء النص"
 
-#. Translators: Label for the Cancel button in the add/edit dialog.
-#: addon/globalPlugins/instantAccess.py:473
-msgid "&Cancel"
-msgstr "إل&غاء"
+#: addon\globalPlugins\core\item_dialog.py:178
+msgid "Typing delay"
+msgstr "الفاصل بين الحروف بالثواني"
 
-#. Translators: Label for the shortcut button when a shortcut is set. {gesture} is the assigned key.
-#: addon/globalPlugins/instantAccess.py:503
-#, python-brace-format
-msgid "Shortcut key: {gesture}"
-msgstr "مفتاح الاختصار: {gesture}"
-
-#. Translators: Label for the shortcut button when no shortcut is set.
-#: addon/globalPlugins/instantAccess.py:506
-msgid "Shortcut key: Undefined"
-msgstr "مفتاح الاختصار: غير محدد"
-
-#. Translators: Title of the file picker for selecting a program.
-#: addon/globalPlugins/instantAccess.py:529
+#: addon\globalPlugins\core\item_dialog.py:232
 msgid "Select a program"
 msgstr "اختر برنامجًا"
 
-#. Translators: Title of the folder picker for selecting a folder.
-#: addon/globalPlugins/instantAccess.py:536
+#: addon\globalPlugins\core\item_dialog.py:238
 msgid "Select a folder"
 msgstr "اختر مجلدًا"
 
-#. Translators: Title of the file picker for selecting a file.
-#: addon/globalPlugins/instantAccess.py:543
+#: addon\globalPlugins\core\item_dialog.py:244
 msgid "Select a file"
 msgstr "اختر ملفًا"
 
-#. Translators: Error shown when a reserved shortcut is selected.
-#: addon/globalPlugins/instantAccess.py:557
-#: addon/globalPlugins/instantAccess.py:584
-msgid "This shortcut is reserved for instant Access."
-msgstr "هذا الاختصار محجوز لإضافة الوصول الفوري."
-
-#. Translators: Error shown when an invalid shortcut is selected.
-#: addon/globalPlugins/instantAccess.py:562
-#: addon/globalPlugins/instantAccess.py:588
-msgid "Invalid shortcut key."
-msgstr "مفتاح الاختصار غير صالح."
-
-#. Translators: Error shown when required fields are missing.
-#: addon/globalPlugins/instantAccess.py:578
+#: addon\globalPlugins\core\item_dialog.py:271
+#: addon\globalPlugins\core\item_dialog.py:274
+#: addon\globalPlugins\core\item_dialog.py:533
 msgid "All fields are required."
 msgstr "كافة الحقول مطلوبة."
 
-#. Translators: Error shown when a name is already in use.
-#: addon/globalPlugins/instantAccess.py:596
-msgid "This name already exists."
-msgstr "هذا الاسم مستخدم بالفعل."
+#: addon\globalPlugins\core\item_dialog.py:280
+msgid "Delay must be a valid number."
+msgstr "يجب أن يكون رقمًا صالحًا."
 
-#. Translators: Error shown when a shortcut is already assigned.
-#: addon/globalPlugins/instantAccess.py:603
-msgid "This shortcut is already assigned."
-msgstr "هذا الاختصار معين مسبقًا."
+#: addon\globalPlugins\core\item_dialog.py:283
+msgid "Delay must be zero or greater."
+msgstr "يجب أن يكون رقمًا صالحًا."
 
-#. Translators: Column label for path or URL in the list.
-#: addon/globalPlugins/instantAccess.py:640
-msgid "Path"
-msgstr "المسار"
+#: addon\globalPlugins\core\item_dialog.py:291
+msgid "Typing delay must be a valid number."
+msgstr "يجب أن يكون رقمًا صالحًا."
+
+#: addon\globalPlugins\core\item_dialog.py:294
+msgid "Typing delay must be zero or greater."
+msgstr "يجب أن يكون تأخير الكتابة رقمًا صالحًا."
+
+#. Translators: Column label for item name in the list.
+#: addon\globalPlugins\core\item_dialog.py:326
+#: addon\globalPlugins\core\settings_panel.py:75
+msgid "Name"
+msgstr "الاسم"
+
+#: addon\globalPlugins\core\item_dialog.py:328
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: addon\globalPlugins\core\item_dialog.py:332
+msgid "Delay"
+msgstr "التأخير"
+
+#: addon\globalPlugins\core\item_dialog.py:333
+msgid "Details"
+msgstr "تفاصيل"
 
 #. Translators: Label for the Add button in the settings panel.
-#: addon/globalPlugins/instantAccess.py:645
+#: addon\globalPlugins\core\item_dialog.py:337
+#: addon\globalPlugins\core\settings_panel.py:86
 msgid "&Add"
 msgstr "إ&ضافة"
 
 #. Translators: Label for the Edit button in the settings panel.
-#: addon/globalPlugins/instantAccess.py:647
+#: addon\globalPlugins\core\item_dialog.py:338
+#: addon\globalPlugins\core\settings_panel.py:88
 msgid "&Edit"
 msgstr "&تحرير"
 
 #. Translators: Label for the Delete button in the settings panel.
-#: addon/globalPlugins/instantAccess.py:649
+#: addon\globalPlugins\core\item_dialog.py:339
+#: addon\globalPlugins\core\settings_panel.py:90
 msgid "&Delete"
 msgstr "&حذف"
 
-#. Translators: Label for the Test button in the settings panel.
-#: addon/globalPlugins/instantAccess.py:651
-msgid "&Test"
-msgstr "تج&ربة"
+#: addon\globalPlugins\core\item_dialog.py:340
+msgid "Move &up"
+msgstr "نقل لل&أعلى"
 
-#. Translators: Label for the Export settings button.
-#: addon/globalPlugins/instantAccess.py:653
-msgid "E&xport settings"
-msgstr "ت&صدير الإعدادات"
+#: addon\globalPlugins\core\item_dialog.py:341
+msgid "Move &down"
+msgstr "نقل للأ&سفل"
 
-#. Translators: Label for the Import settings button.
-#: addon/globalPlugins/instantAccess.py:655
-msgid "I&mport settings"
-msgstr "ا&ستيراد الإعدادات"
+#: addon\globalPlugins\core\item_dialog.py:344
+msgid "Interval between actions (seconds)"
+msgstr "الفاصل الزمني بين الإجراءات (ثواني)"
 
-#. Translators: Label for verbosity level selection.
-#: addon/globalPlugins/instantAccess.py:659
-msgid "Verbosity level"
-msgstr "مستوى الإسهاب"
+#: addon\globalPlugins\core\item_dialog.py:385
+msgid "Restrict this shortcut to work in certain apps"
+msgstr "الفاصل الزمني بين الإجراءات (ثواني)"
 
-#. Translators: Title of the add item dialog.
-#: addon/globalPlugins/instantAccess.py:720
-msgid "Add item"
-msgstr "إضافة عنصر"
+#: addon\globalPlugins\core\item_dialog.py:386
+#: addon\globalPlugins\core\item_dialog.py:388
+msgid "App name"
+msgstr "اسم التطبيق"
 
-#. Translators: Title of the edit item dialog.
-#: addon/globalPlugins/instantAccess.py:735
-msgid "Edit item"
-msgstr "تحرير عنصر"
+#. Translators: Column label for shortcut in the list.
+#: addon\globalPlugins\core\item_dialog.py:396
+#: addon\globalPlugins\core\settings_panel.py:79
+msgid "Shortcut"
+msgstr "الاختصار"
 
-#. Translators: Confirmation prompt when deleting an item.
-#: addon/globalPlugins/instantAccess.py:751
-msgid "Are you sure you would like to delete the selected item?"
+#: addon\globalPlugins\core\item_dialog.py:422
+#, python-brace-format
+msgid "Shortcut key: {gesture}"
+msgstr "مفتاح الاختصار: {gesture}"
+
+#: addon\globalPlugins\core\item_dialog.py:424
+msgid "Shortcut key: Undefined"
+msgstr "مفتاح الاختصار: غير محدد"
+
+#: addon\globalPlugins\core\item_dialog.py:463
+msgid "Add action"
+msgstr "إضافة إجراء"
+
+#: addon\globalPlugins\core\item_dialog.py:474
+msgid "Edit action"
+msgstr "تعديل الإجراء"
+
+#: addon\globalPlugins\core\item_dialog.py:485
+msgid "Are you sure you would like to delete the selected action?"
 msgstr "هل أنت متأكد من رغبتك في حذف العنصر المحدد؟"
 
-#. Translators: Title of the export settings dialog.
-#: addon/globalPlugins/instantAccess.py:778
-msgid "Export settings"
-msgstr "تصدير الإعدادات"
+#: addon\globalPlugins\core\item_dialog.py:516
+#: addon\globalPlugins\core\item_dialog.py:553
+msgid "This shortcut is reserved for instant Access."
+msgstr "هذا الاختصار محجوز لإضافة الوصول الفوري."
 
-#. Translators: Error shown when exporting settings fails.
-#: addon/globalPlugins/instantAccess.py:789
-msgid "Could not export settings."
-msgstr "تعذر تصدير الإعدادات."
+#: addon\globalPlugins\core\item_dialog.py:520
+#: addon\globalPlugins\core\item_dialog.py:556
+msgid "Invalid shortcut key."
+msgstr "مفتاح الاختصار غير صالح."
 
-#. Translators: Title of the import settings dialog.
-#: addon/globalPlugins/instantAccess.py:799
-msgid "Import settings"
-msgstr "استيراد الإعدادات"
+#: addon\globalPlugins\core\item_dialog.py:536
+msgid "At least one action is required."
+msgstr "مطلوب إجراء واحد على الأقل."
 
-#. Translators: Error shown when importing settings fails.
-#: addon/globalPlugins/instantAccess.py:822
-msgid "Could not import settings."
-msgstr "تعذر استيراد الإعدادات."
+#: addon\globalPlugins\core\item_dialog.py:539
+msgid "App name is required when app restriction is enabled."
+msgstr "اسم التطبيق مطلوب عند تمكين تقييد التطبيق."
 
-#. Translators: Message announced when trying to enable instant Access mode with no configured commands.
-#: addon/globalPlugins/instantAccess.py:933
+#: addon\globalPlugins\core\item_dialog.py:545
+msgid "Interval must be a valid number."
+msgstr "يجب أن يكون الفاصل الزمني رقمًا صالحًا."
+
+#: addon\globalPlugins\core\item_dialog.py:548
+msgid "Interval must be zero or greater."
+msgstr "يجب أن يكون الفاصل صفرًا أو أكبر."
+
+#: addon\globalPlugins\core\item_dialog.py:563
+msgid "This name already exists."
+msgstr "هذا الاسم مستخدم بالفعل."
+
+#: addon\globalPlugins\core\item_dialog.py:570
+msgid "This shortcut is already assigned for this app."
+msgstr "هذا الاختصار معين مسبقًا لهذا التطبيق."
+
+#: addon\globalPlugins\core\item_dialog.py:572
+msgid "This global shortcut is already assigned."
+msgstr "هذا الاختصار معين مسبقًا."
+
+#: addon\globalPlugins\core\nvda_commands.py:31
+#, python-brace-format
+msgid "{category}: {command}"
+msgstr "{category}: {command}"
+
+#: addon\globalPlugins\core\nvda_commands.py:98
+msgid "instant Access command"
+msgstr "أمر الوصول الفوري"
+
+#: addon\globalPlugins\core\nvda_commands.py:202
+msgid "Error: Invalid NVDA command"
+msgstr "خطأ: اختصار NVDA غير صالح"
+
+#: addon\globalPlugins\core\nvda_commands.py:214
+msgid "Error: NVDA command is not currently available"
+msgstr "خطأ: اختصار NVDA غير متاح حاليًا"
+
+#: addon\globalPlugins\core\nvda_commands.py:222
+msgid "Error: Could not run NVDA command"
+msgstr "خطأ: تعذر تشغيل اختصارNVDA"
+
+#: addon\globalPlugins\core\plugin.py:159
 msgid "No commands configured."
 msgstr "لم يتم إعداد أي أوامر."
 
-#. Translators: Short message announced in advanced verbosity when instant Access mode is enabled.
-#: addon/globalPlugins/instantAccess.py:941
+#: addon\globalPlugins\core\plugin.py:166
 msgid "On"
 msgstr "تشغيل"
 
-#. Translators: Message announced when instant Access mode is enabled. {count} is the number of commands.
-#: addon/globalPlugins/instantAccess.py:945
+#: addon\globalPlugins\core\plugin.py:169
 #, python-brace-format
 msgid "instant Access On. {count} commands loaded"
 msgstr "تم تشغيل الوصول الفوري. تم تحميل {count} من الأوامر"
 
-#. Translators: Short message announced in advanced verbosity when instant Access mode is disabled.
-#: addon/globalPlugins/instantAccess.py:956
+#: addon\globalPlugins\core\plugin.py:182
 msgid "Off"
 msgstr "إيقاف"
 
-#. Translators: Message announced when instant Access mode is disabled.
-#: addon/globalPlugins/instantAccess.py:959
+#: addon\globalPlugins\core\plugin.py:184
 msgid "instant Access Off"
 msgstr "تم إيقاف الوصول الفوري"
 
-#. Translators: Message announced when a pressed key has no assigned command in instant Access mode.
-#: addon/globalPlugins/instantAccess.py:970
+#: addon\globalPlugins\core\plugin.py:194
 msgid "This gesture has no command assigned."
 msgstr "لم يتم تخصيص أمر لهذا الاختصار."
 
-#. الوصف الكامل
-#: buildVars.py:16
+#: addon\globalPlugins\core\plugin.py:255
+msgid "App name copied to clipboard."
+msgstr "تم نسخ اسم التطبيق إلى الحافظة."
+
+#. Translators: Type label for shortcut items containing multiple actions.
+#: addon\globalPlugins\core\settings_panel.py:49
+msgid "Multiple actions"
+msgstr "إجراءات متعددة"
+
+#. Translators: Summary for items with multiple actions. {first} is the first action summary and {count} the total action count.
+#: addon\globalPlugins\core\settings_panel.py:60
+#, python-brace-format
+msgid "{first} (+{count} more)"
+msgstr "{first} (+{count} more)"
+
+#. Translators: Column label for path or URL in the list.
+#: addon\globalPlugins\core\settings_panel.py:81
+msgid "Path"
+msgstr "المسار"
+
+#. Translators: Label for the Test button in the settings panel.
+#: addon\globalPlugins\core\settings_panel.py:92
+msgid "&Test"
+msgstr "تج&ربة"
+
+#. Translators: Label for the Export settings button.
+#: addon\globalPlugins\core\settings_panel.py:94
+msgid "E&xport settings"
+msgstr "ت&صدير الإعدادات"
+
+#. Translators: Label for the Import settings button.
+#: addon\globalPlugins\core\settings_panel.py:96
+msgid "I&mport settings"
+msgstr "ا&ستيراد الإعدادات"
+
+#. Translators: Label for verbosity level selection.
+#: addon\globalPlugins\core\settings_panel.py:100
+msgid "Verbosity level"
+msgstr "مستوى الإسهاب"
+
+#. Translators: Title of the add item dialog.
+#: addon\globalPlugins\core\settings_panel.py:161
+msgid "Add item"
+msgstr "إضافة عنصر"
+
+#. Translators: Title of the edit item dialog.
+#: addon\globalPlugins\core\settings_panel.py:182
+msgid "Edit item"
+msgstr "تحرير عنصر"
+
+#: addon\globalPlugins\core\settings_panel.py:204
+msgid "Are you sure you would like to delete the selected item?"
+msgstr "هل أنت متأكد من رغبتك في حذف العنصر المحدد؟"
+
+#: addon\globalPlugins\core\settings_panel.py:230
+msgid "Export settings"
+msgstr "تصدير الإعدادات"
+
+#: addon\globalPlugins\core\settings_panel.py:240
+msgid "Could not export settings."
+msgstr "تعذر تصدير الإعدادات."
+
+#: addon\globalPlugins\core\settings_panel.py:249
+msgid "Import settings"
+msgstr "استيراد الإعدادات"
+
+#: addon\globalPlugins\core\settings_panel.py:266
+msgid "Could not import settings."
+msgstr "تعذر استيراد الإعدادات."
+
+#: buildVars.py:7
 msgid ""
 "A powerful productivity tool to launch websites, files, folders, and "
 "programs quickly using a dedicated layer.\n"
-"Features include background execution, verbosity levels, command line "
+"\tFeatures include background execution, verbosity levels, command line "
 "arguments, and settings import/export."
 msgstr ""
-"أداة إنتاجية قوية لتشغيل مواقع الويب، والملفات، والمجلدات، والبرامج بسرعة باستخدام طبقة مخصصة.\n"
-"تتضمن الميزات: التنفيذ في الخلفية، ومستويات الإسهاب، ووسائط سطر الأوامر، واستيراد وتصدير الإعدادات."
+"أداة إنتاجية قوية لتشغيل مواقع الويب، والملفات، والمجلدات، والبرامج بسرعة "
+"باستخدام طبقة مخصصة.\n"
+"تتضمن الميزات: التنفيذ في الخلفية، ومستويات الإسهاب، ووسائط سطر الأوامر، "
+"واستيراد وتصدير الإعدادات."
 
-#. سجل التغييرات
-#: buildVars.py:23
-msgid "- New: first releace."
-msgstr "- جديد: الإصدار الأول."
+#: buildVars.py:10
+msgid ""
+"- New: Text snippets.\n"
+"\t- New: NVDA commands."
+msgstr "جديد: اختصارات nvda.\vجديد: نسخ وكتابة ولصق النصوص."
+
+#~ msgid "All files (*.*)|*.*"
+#~ msgstr "كافة الملفات (*.*)|*.*"
+
+#~ msgid "- New: first releace."
+#~ msgstr "- جديد: الإصدار الأول."
